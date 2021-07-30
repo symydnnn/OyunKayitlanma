@@ -9,8 +9,8 @@ import oyun.entities.concretes.Oyun;
 public class Main {
 
 	public static void main(String[] args) {
-		Musteri musteri = new Musteri("Seyma", "122222244568", "Aydýn", 1999);
-		EDevlet dogrusu = new EDevlet("Seyma", "122222244568", "Aydýn", 1999);	
+		Musteri musteri = new Musteri("Seyma", "122222244568", "Aydin", 1999);
+		EDevlet dogrusu = new EDevlet("Seyma", "122222244568", "Aydin", 1999);	
 		OyunYonetim prog = new OyunYonetim();
 		Oyun oyun = new Oyun("GTA5", "123456", 55,14);
 		

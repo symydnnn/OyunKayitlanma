@@ -18,10 +18,10 @@ public class Dogrulama extends Program{
 		if(musteri.getTcNo().equals(dogru.getTcNo())) {
 		System.out.println("Dogrulanacak ad: "+dogru.getIsim());
 		System.out.println("Girilen Ad: "+musteri.getIsim());
-		System.out.println("Dogrulanmýþtýr.");	
+		System.out.println("Dogrulanmistir.");	
 		}
 		else {
-			System.out.println("Dogrulama baþarýsýz.");
+			System.out.println("Dogrulama basarisiz.");
 		}
 	}
 	

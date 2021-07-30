@@ -19,9 +19,9 @@ public class OyunYonetim extends Yonetim{
 		int sýnýr = oyun.getYasSiniri();
 		
 		if(fark>=sýnýr) {
-			System.out.println("Oyun Satýn Alýndý.");
+			System.out.println("Oyun Satin Alindi.");
 		}else {
-			System.out.println("Yas tutarsýzdýr. Oyun Satýn alýnamaz.");
+			System.out.println("Yas tutarsizdir. Oyun Satin alinamaz.");
 		}
 	}
 	

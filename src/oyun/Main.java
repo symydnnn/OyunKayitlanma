@@ -16,7 +16,7 @@ public class Main {
 		
 		Dogrulama dog = new Dogrulama(dogrusu, musteri);
 		dog.dogruMu();
-		prog.oyunSatýnAl(musteri,oyun);
+		prog.oyunSatinAl(musteri,oyun);
 	}
 
 }

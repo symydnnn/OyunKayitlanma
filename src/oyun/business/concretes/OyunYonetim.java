@@ -12,7 +12,7 @@ public class OyunYonetim extends Yonetim{
 	}
 	
 
-	public void oyunSatýnAl(Musteri oyuncu, Oyun oyun) {
+	public void oyunSatinAl(Musteri oyuncu, Oyun oyun) {
 		int tarih = LocalDate.now().getYear();
 		int dogumTarih = oyuncu.getDogumTarihi(); 
 		int fark = tarih-dogumTarih;

@@ -16,9 +16,9 @@ public class OyunYonetim extends Yonetim{
 		int tarih = LocalDate.now().getYear();
 		int dogumTarih = oyuncu.getDogumTarihi(); 
 		int fark = tarih-dogumTarih;
-		int sýnýr = oyun.getYasSiniri();
+		int sinir = oyun.getYasSiniri();
 		
-		if(fark>=sýnýr) {
+		if(fark>=sinir) {
 			System.out.println("Oyun Satin Alindi.");
 		}else {
 			System.out.println("Yas tutarsizdir. Oyun Satin alinamaz.");
